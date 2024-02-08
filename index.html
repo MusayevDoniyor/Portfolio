@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personal Portfolio - Bootstrap 5</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- * Nav bar start-->
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+      <div class="container-lg">
+        <a class="nav-brand text-danger fw-bold fs-4" href="#">UZ</a>
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary btn-danger px-3"
+            type="button"
+            id="dropwdownMenuButton"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a href="#home" class="dropdown-item">Home</a></li>
+            <li><a href="#about" class="dropdown-item">About</a></li>
+            <li><a href="#services" class="dropdown-item">Services</a></li>
+            <!-- * disabled portfolio -->
+            <!-- <li><a href="#portfolio" class="dropdown-item">Portfolio</a></li> -->
+            <li><a href="#contact" class="dropdown-item">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- * Nav bar end-->
+
+    <!-- ^ Home section start -->
+    <section class="home py-5" id="home">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="home-img text-center">
+              <img
+                src="/images/portfolio2-img.png"
+                class="rounded-circle mw-100"
+                alt="profile img"
+              />
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+            <div class="home-text">
+              <p class="text-muted mb-1">Hello I'm</p>
+              <h1 class="text-danger text-uppercase fs-1 fw-bold">
+                Web Developer
+              </h1>
+              <h2>Musayev Doniyor</h2>
+
+              <p class="mt-4 text-muted">
+                Hello, I'm Musayev Doniyor, a web developer passionate about
+                creating user-friendly and responsive websites. I have a strong
+                foundation in HTML and CSS, and I'm experienced in Sass and
+                Bootstrap. I also have proficiency in using Git for version
+                control. I'm eager to collaborate on exciting web development
+                projects.
+              </p>
+
+              <a href="#portfolio" class="btn btn-danger px-3 mt-3">My Work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ^ Home section end -->
+
+    <!-- * ABout section start -->
+    <section class="about py-5" id="about">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">About Me</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-text">
+              <h3 class="fs-4 mb-3">
+                Some technologies I know and about clients.
+              </h3>
+
+              <p class="text-muted">
+                Here's a little bit of tech I know and some of my finished
+                projects with Figma and some info on them
+              </p>
+            </div>
+
+            <div class="row text-center text-uppercase my-3">
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">17</h4>
+                  <p class="text-muted">Projects Completed</p>
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">20</h4>
+                  <p class="text-muted">Happy Clients</p>
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">30</h4>
+                  <p class="text-muted">Positive Reviews</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12 d-flex align-items-center">
+                <a href="#" class="btn px-3 btn-danger me-5">Download CV</a>
+                <div class="social-links">
+                  <a href="#" class="text-dark me-2"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" class="text-dark me-2"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" class="text-dark me-2"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" class="text-dark me-2"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">Html</h3>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 5px"
+              >
+                <div class="progress-bar bg-danger" style="width: 75%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">Css</h3>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 5px"
+              >
+                <div class="progress-bar bg-danger" style="width: 50%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">Javacript</h3>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="2"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 5px"
+              >
+                <div class="progress-bar bg-danger" style="width: 2%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">Sass</h3>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 5px"
+              >
+                <div class="progress-bar bg-danger" style="width: 50%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <h3 class="fs-6">Bootstrap</h3>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="15"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 5px"
+              >
+                <div class="progress-bar bg-danger" style="width: 15%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- * ABout section end -->
+
+    <!-- ! Services section start -->
+    <section class="services py-5" id="services">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2>What I DO</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="services-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3 class="fs-5 py-2">Web Development</h3>
+              <p class="text-muted">
+                I can make all kinds of responsive sites, but not as well as the
+                experts, but I have made good sites and they look good.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="services-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h3 class="fs-5 py-2">Creative Design</h3>
+              <p class="text-muted">
+                And I can make beautiful sites based on my creative ideas and
+                decorate them as much as possible to show my ideas in full.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="services-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fas fa-image"></i>
+              </div>
+              <h3 class="fs-5 py-2">Photoshop</h3>
+              <p class="text-muted">
+                I have some experience with Photoshop for basic image editing
+                and visual content creation in web design. I use Photoshop to
+                enhance visual elements and bring creativity to my web projects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! Services section end -->
+
+    <!-- * Portfolio disabled section start-->
+    <!-- <div class="portfolio bg-white py-5" id="portfolio">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Latest Works</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <a href="https://app.netlify.com/teams/musayevdoniyor/overview"
+                >d</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- * Portfolio disabled section end -->
+
+    <!-- ^ Contact section start -->
+    <div class="contact py-5" id="contact">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Contact Me</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-5">
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-envelope"></i>
+              </div>
+
+              <div class="text ms-3">
+                <h3 class="fs-5">Email</h3>
+                <p class="text-muted">doniyormusayev2009@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-phone"></i>
+              </div>
+
+              <div class="text ms-3">
+                <h3 class="fs-5">Phone</h3>
+                <p class="text-muted">+998 93 804 30 **</p>
+              </div>
+            </div>
+
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+
+              <div class="text ms-3">
+                <h3 class="fs-5">Visit</h3>
+                <p class="text-muted">
+                  Tashkent, Shayxontohur tumani, Ibn-Sino mavzesi, 3-dom
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7">
+            <div class="contact-form">
+              <form action="#">
+                <div class="col-lg-6 mb-4">
+                  <input
+                    type="text"
+                    placeholder="Your Name"
+                    class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                  />
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                  <input
+                    type="text"
+                    placeholder="Your Email"
+                    class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                  />
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <textarea
+                      rows="5"
+                      placeholder="Your Message"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button type="submit" class="btn btn-danger px-3">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ^ Contact section end -->
+
+    <!-- * Footer start -->
+    <footer class="footer border-top py-4">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="m-0 text-center text-muted">
+              &copy;2024 Doniyor. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- * Footer end -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
